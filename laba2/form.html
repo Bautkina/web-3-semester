@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html long="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Bautkina</title>
+    <link rel="stylesheet" type="text/css" href="/laba1/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo"><img src="logo10.png" alt="" width="700px"></a>
+        <div class="table_menu">
+        <table>
+            <tr>
+                <td><a href="#">Главная</a></td>
+                <td><a href="#contact">Контакты</a></td>
+                <td><a href="#skills">Навыки</a></td>
+                <td><a href="/laba2/form.html">Авторизация</a></td>
+                <td><a href="/laba2/form2.html">Обратная связь</a></td>
+            </tr>
+        </table>
+    </div>
+    </header>
+    <main>
+        <div class="f" style="width: 3000px;">
+        <form name="log_in" action="https://httpbin.org/post" enctype="multipart/form-data" method="post" class="form">
+        <h2>Форма обратной связи</h2>
+        <div class="fio_block">
+            <input type="text" name="fio" placeholder="Введите ФИО">
+        </div> 
+        <div class="email_block"><br>
+            <input type="text" name="email" placeholder="Введите email">
+        </div>
+        <div>
+            <h4>Как вы узнали о нас?</h4>
+            <input type="radio" name="info">От друзей<br>
+            <input type="radio" name="info">Из интернета
+        </div>
+        <div ><br>
+            <select class="complain_block" size="1" style="width: 500px; height:70px">
+                <option disabled>Выберите тип</option>
+                <option value="1">Предложение</option>
+                <option value="2">Жалоба</option>
+                </select>
+        </div>
+        <div class="comm_block">
+            <p>Комметарий<br>
+            <textarea></textarea></p>
+        </div>
+        <div>
+            <input class="file_block" type="file" name="file">
+        </div>
+        <div>
+            <input class="personal_block" type="checkbox">Даю своё согласие на обработку <br> персональных данных
+        </div>
+        <div ><br>
+            <input class="block" type="submit" value="Отправить" >
+        </div>
+        <br>
+    </form>
+</div>
+    </main>
+    <footer>
+        <div class="ftr">
+        <div class="social" id="contact">
+            <a href="https://vk.com/id245949779"><img class="vk" src="vk.png" width="100" alt="">
+            </a>
+            <a href="https://t.me/bautkina"><img class="tg" src="tg.png" width="100" alt="">
+            </a>
+            <p>Телефон: 89586344407</p>
+            <p>Почта: bautkina.anas@yandex.ru</p> 
+            </div>
+   
+    <div class="logo_footer"><a href="design.html"><img src="logo10.png" alt="" width="900px"></a></div>
+   <div class="copy"> &copy;Бауткина А. Е., 2022</div>
+</div>
+</footer>
+</body>
+</html>

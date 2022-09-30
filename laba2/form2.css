@@ -1,0 +1,23 @@
+body {
+    font-family: 'Poiret One', cursive;
+    background-image: url(fonstola.ru_49869.jpg);
+    background-size: cover;
+}
+
+.form{
+    position: absolute;
+   left: 25%;
+   top:25%;
+   background-color: rgba(119, 119, 119, 0.87);
+   text-align: center;
+   width: 50%;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   border-radius: 50%;
+   border-style:dotted;
+
+}
+
+
+
+

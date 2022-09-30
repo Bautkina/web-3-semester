@@ -1,0 +1,46 @@
+body {
+    font-family: 'Poiret One', cursive;
+    background-image: url(a.jpg);
+    background-size: cover;
+}
+
+.form{
+     /*position: absolute;*/
+    left: 35%;
+     background-size: cover;
+    background-color: rgba(241, 184, 222, 0.7);
+    text-align: center;
+    width: 30%;
+}
+
+
+.fio_block input{
+border-radius: 30px;
+width: 250px;
+
+}
+
+.email_block input{
+    border-radius: 30px;
+    width: 250px;
+}
+
+.comm_block{
+    font-weight: bold;
+}
+.comm_block textarea{
+    width: 75%;
+    padding: 20px;
+}
+
+.file_block{
+    color: rgb(255, 0, 140);
+}
+
+.personal_block { 
+    font-size: 10px;
+    font-weight: bold;
+}
+.ftr{
+    top:1000px;
+}

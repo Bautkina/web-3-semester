@@ -1,0 +1,148 @@
+body{
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    background-image: url(/laba2/a.jpg);
+    background-size: cover;
+    
+        
+}
+
+header{
+    margin: 44px auto;
+    display: -webkit-flex;
+    align-items: center;
+    background-color: #222222;
+    justify-content: space-between;
+}
+
+.table_menu table tr td a{ 
+    align-items:  right;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+.text{
+background-color: rgba(240, 248, 255, 0.445);
+text-shadow: 2px 2px #222222;
+}
+
+.h{
+    color: #ff5c7d;
+}
+
+.skills{
+    color: white;
+    background-color: #222222;
+}
+
+footer{
+    background-color: #222222;
+   
+    height: auto;
+    color:#ff5c7d;
+    /*align-items: center;*/
+    
+    top:1000;
+    margin: 44px auto;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.social{
+color:white;
+line-height: 5px;
+}
+.vk{
+    border-radius:100%;
+    margin-right: 10px;
+}
+.tg{
+    border-radius:100%;
+}
+
+.copy{
+    font-size: 16px;
+    color: white;
+}
+
+.copy{
+    font-size: 16px;
+    color: white;
+}
+
+.f{
+    padding-left: 705px;
+}
+.f2{
+    padding-left: 970px;
+}
+
+.log{
+    padding-left: 705px;
+}
+form{
+    
+    align-items: center;
+   background-color: rgba(241, 184, 222, 0.7);
+   text-align: center;
+   width: 40%;
+   
+
+   
+}
+.login_block input{
+    font-size: 30px;
+}
+.password_block input{
+    font-size: 30px;;
+}
+
+.fio_block input{
+border-radius: 30px;
+width: 550px;
+height: 40px;
+font-size: 30px;
+}
+
+.email_block input{
+    border-radius: 30px;
+    width: 550px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.comm_block{
+   font-weight: bold;
+}
+.comm_block textarea{
+   width: 75%;
+   padding: 20px;
+   font-size: 30px;
+}
+
+.file_block{
+   color: rgb(255, 0, 140);
+   font-size: 30px;
+}
+.file_block input{
+    height: 500px;
+    width: 300px;
+}
+
+.personal_block { 
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.block{
+    font-size: 30px;
+}
+
+.complain_block {
+    font-size: 30px;
+}
