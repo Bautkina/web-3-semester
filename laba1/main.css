@@ -65,9 +65,18 @@ line-height: 5px;
     border-radius:100%;
 }
 
+header h1 {
+    font-size: 30px;
+    padding: 90px;
+}
+
 .copy{
     font-size: 16px;
     color: white;
+}
+
+.array{
+    color: #ff5c7d;
 }
 
 .copy{
