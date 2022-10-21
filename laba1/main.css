@@ -1,3 +1,7 @@
+.left_text{
+    text-align: center;
+}
+
 body{
     font-family: 'Poiret One', cursive;
     font-size: 50px;
@@ -6,6 +10,8 @@ body{
     
         
 }
+
+
 
 header{
     margin: 44px auto;
@@ -75,6 +81,8 @@ header h1 {
     color: white;
 }
 
+
+
 .array{
     color: #ff5c7d;
 }
@@ -84,9 +92,14 @@ header h1 {
     color: white;
 }
 
-.f{
+.center_form1{
     padding-left: 705px;
 }
+
+.center_form2{
+    padding-left: 920px;
+}
+
 .f2{
     padding-left: 970px;
 }
@@ -94,7 +107,7 @@ header h1 {
 .log{
     padding-left: 705px;
 }
-form{
+form, .feed_black_answer{
     
     align-items: center;
    background-color: rgba(241, 184, 222, 0.7);
@@ -113,25 +126,32 @@ form{
 
 .fio_block input{
 border-radius: 30px;
-width: 550px;
+width: 450px;
 height: 40px;
 font-size: 30px;
 }
 
 .email_block input{
     border-radius: 30px;
-    width: 550px;
+    width: 450px;
     height: 40px;
     font-size: 30px;
 }
 
-.comm_block{
+.comm_block, .comm_block2{
    font-weight: bold;
 }
-.comm_block textarea{
-   width: 75%;
-   padding: 20px;
+.comm_block textarea, .comm_block2 textarea{
+   width: 450px;
    font-size: 30px;
+   height: 250px;
+}
+
+
+.comment{
+    width: 450px;
+   font-size: 30px;
+   height: 250px;
 }
 
 .file_block{
@@ -152,6 +172,13 @@ font-size: 30px;
     font-size: 30px;
 }
 
+.block2{
+    font-size: 30px;
+}
 .complain_block {
     font-size: 30px;
+}
+
+.box{
+    background-color: rgba(241, 184, 222, 0.7);
 }

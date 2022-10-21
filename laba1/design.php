@@ -2,12 +2,13 @@
 $title = 'Бауткина Анастасия';
 $date = date('Сформировано d.m.Y в H-i:s'); 
 $array = array('Джозеф Кэмпбелл "Тысячеликий герой"','Ли Бардуго "Шестёрка Воронов"', 'Нил Гейман "Никогде"');
+
 ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $title ?></title>
+    <title><?php echo$title ?></title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -109,6 +110,35 @@ for ($a = 0; $a < count($array); $a++) {
         </table>
         </section>
     </div>
+    <br>
+    <?php
+    include "bd.php";
+    $result = mysqli_query($mysql, "SELECT * FROM `images_web`");
+?>
+
+    <div class="box">
+    <table align="center">
+    
+    <?php 
+        while($name = mysqli_fetch_assoc($result)){
+           ?>
+           <tr>
+               <div class="filters__img">
+               <td><img  title="<?php echo $name['term'];?>" src="/laba1/<?php echo $name['img'];?>.jpg" width="400"> </td>
+               <td> <?php echo $name['definition_t'];?></td>
+                </div>
+                </tr>
+            <?php
+          }
+     ?>
+    
+     </table>
+</div> 
+– – – – – – 
+
+</div> 
+
+
     </main>
 
     <footer>

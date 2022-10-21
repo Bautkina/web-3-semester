@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title><?php echo$title ?></title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <a href="/" class="logo"><img src="logo10.png" alt="" width="700px"></a>
+        
+        <div class="table_menu">
+        <table>
+            <tr>
+              
+                <td>
+                <a href="<?php	
+            $name='Главная'; 
+            $link='/laba1/design.php';	
+            $current_page=true;	
+            echo $link;	
+            ?>">
+            <?php	
+            if( $current_page )	
+            echo $name;	
+                ?>
+            </a>
+            </a></td>
+                <td>
+                <a href="<?php	
+            $name='Авторизация'; 
+            $link='/laba2/form2.html';	
+            $current_page=true;	
+            echo $link;	
+            ?>">
+            <?php	
+            if( $current_page )	
+            echo $name;	
+                ?>
+            </a>
+            <td>
+                <a href="<?php	
+            $name='Обратная связь'; 
+            $link='/laba2/form.html';	
+            $current_page=true;	
+            echo $link;	
+            ?>">
+            <?php	
+            if( $current_page )	
+            echo $name;	
+                ?>
+            </a>
+            </td>
+        </table>
+    </div>
+    </header>
