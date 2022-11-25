@@ -1,0 +1,83 @@
+
+html {
+    height: 100%;
+}
+header{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white
+}
+body{
+    
+    background:#76909C;
+    color: black;
+    min-height: 100%;
+    display: grid;
+   
+}
+table {
+    border-collapse: collapse; 
+    line-height: 1.1;
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background:  radial-gradient(farthest-corner at 50% 50%, rgb(111, 187, 201), #008ffd);
+    color: #0C213B;
+    color: black;
+  }
+  th {
+    padding: 10px; 
+    border: 1px solid #A9E2CC;
+  }
+  td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #A9E2CC;
+  }
+
+  header{
+    text-align: center;
+    background-color: rgb(38, 123, 128);
+    color: white
+}
+body{
+    
+    grid-template-rows: auto 1fr auto;
+    background-image: url(/laba9/1.jpg);
+    color: black;
+}
+.main
+{
+    width: 1700px;
+    margin:0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.main_item
+{
+  background: white;
+  padding: 10px;
+  margin-right: 8px;
+  border:2px solid#ff0000
+}
+table {
+    background-color: #76909C;
+    line-height: 1.1;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #ffffff;
+  }
+  th {
+    border: 1px solid #000000;
+  }
+  td {
+    border: 1px solid #000000;
+  }
+
+footer{
+    background-color: rgb(38, 123, 128);
+    text-align: center;
+    font-size: 24px;
+    color:white;
+}
