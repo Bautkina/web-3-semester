@@ -1,0 +1,82 @@
+
+header{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white
+}
+body{
+    background-image: url(/laba6/1.jpg);
+    color: white;
+}
+
+.button_power, .button_gcd, .button_min, .button_plur, .button_fib{
+display:block;
+margin:0 auto;
+width: 213px;
+height: 48px;
+background: #76909C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+
+.power, .gcd, .minDigit, .Pluralization, .fib{
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+
+
+.title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.power_x, .power_n, .num_a, .num_b, .x, .count, .num_fib{
+display:block;
+margin:0 auto;
+width: 150px;
+height: 40px;
+
+background: #0F1A23;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+color: white;
+}
+
+.res_power, .res_gcd, .res_min{
+display:block;
+margin:0 auto;
+width: 150px;
+height: 40px;
+
+background: #165c1f;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.res_plur{
+display:block;
+margin:0 auto;
+width: 250px;
+height: 40px;
+
+background: #165c1f;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.res_fib{
+display:block;
+margin:0 auto;
+width: 450px;
+height: 100px;
+
+background: #165c1f;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+
+
