@@ -1,0 +1,55 @@
+body{
+    background-image: url(/laba7/1.jpg);
+    color: white;
+    background-size: cover;
+}
+
+.buttons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.key_operation:hover, .key_digit:hover, .key_bracket:hover{
+    background-color: rgba(218, 156, 207, 0.616);
+}
+
+
+.key_operation, .key_digit, .key_bracket, .key_result, .key_clear{
+    background-color: white;
+    font-size: 13px;
+    padding: 24px 28px;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.res{
+    background-color: rgba(218, 156, 207, 0.616);
+    text-align: center;
+    outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff;
+    align-items: center;
+    width: 365px;
+    height: 50px;
+    color: black;
+    font-size: 28px;
+}
+
+.a{
+    outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff;
+}
+
+.key_clear:hover{
+    background-color: rgba(212, 82, 82, 0.726);
+}
+.key_result:hover{
+    background-color: rgba(115, 248, 115, 0.61);
+}
+
+.a{
+    border-radius: 30px;
+    outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff;
+}
