@@ -1,0 +1,195 @@
+.left_text{
+    text-align: center;
+}
+
+header{
+    margin: 44px auto;
+    padding: 30px;
+    display: -webkit-flex;
+    align-items: center;
+    background-color:#8d00eb;
+    justify-content: space-between;
+}
+body{
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    background-color: #cdf100;
+    background-size: cover;
+    zoom:50%;
+        
+}
+
+.table_menu table tr td a{ 
+    align-items:  right;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+.text{
+background-color: rgba(240, 248, 255, 0.445);
+text-shadow: 2px 2px #222222;
+}
+
+.h{
+    color: #8d00eb;
+}
+
+.skills{
+    color: white;
+    background-color: #222222;
+}
+
+footer{
+    background-color:#8d00eb;
+   
+    height: auto;
+    color:#ffffff;
+    /*align-items: center;*/
+    
+    top:1000;
+    margin: 44px auto;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.social{
+color:white;
+line-height: 5px;
+}
+.vk{
+    border-radius:100%;
+    margin-right: 10px;
+}
+.tg{
+    border-radius:100%;
+}
+
+header h1 {
+    font-size: 30px;
+    padding: 90px;
+}
+
+.copy{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.array{
+    color: #ff5c7d;
+}
+
+
+
+.center_form1{
+    padding-left: 705px;
+}
+
+.center_form2{
+    padding-left: 920px;
+}
+
+.f2{
+    padding-left: 970px;
+}
+
+.logo_product{
+    text-align: center;
+    color:white;
+}
+.log{
+    padding-left: 705px;
+}
+.super, .feed_black_answer{
+    
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.445);
+   text-align: center;
+   width: 40%;
+   
+}
+.login_block input{
+    font-size: 30px;
+}
+.password_block input{
+    font-size: 30px;;
+}
+
+.fio_block input{
+border-radius: 30px;
+width: 450px;
+height: 40px;
+font-size: 30px;
+}
+
+.email_block input{
+    border-radius: 30px;
+    width: 450px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.comm_block, .comm_block2{
+   font-weight: bold;
+}
+.comm_block textarea, .comm_block2 textarea{
+   width: 450px;
+   font-size: 30px;
+   height: 250px;
+}
+
+
+.comment{
+    width: 450px;
+   font-size: 30px;
+   height: 250px;
+}
+
+.product{
+    width: 1400px;
+        line-height: 1.1;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: #ffffff;
+}
+.stroka{
+    border: 1px solid #8d00eb;
+
+  }
+.stolb{
+    border: 1px solid #8d00eb;;
+  }
+.file_block{
+   color: rgb(255, 0, 140);
+   font-size: 30px;
+}
+.file_block input{
+    height: 500px;
+    width: 300px;
+}
+
+.personal_block { 
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.block{
+    font-size: 30px;
+}
+
+.block2{
+    font-size: 30px;
+}
+.complain_block {
+    font-size: 30px;
+}
+
+.box{
+    background-color: rgba(240, 248, 255, 0.445);
+    text-shadow: 2px 2px #222222;
+}
