@@ -1,0 +1,91 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 223, 252);
+}
+header {
+    background-color: rgb(255, 147, 232);
+    font-size: 30px; 
+    padding: 20px;
+}
+
+.container{
+    display:absolute;
+}
+#main_menu {
+    padding: 20pх;
+    text-align: center;
+    left:50%;
+
+}
+
+#main_menu a{
+    text-decoration: none;
+    margin-right: 20px;
+    left:50%;
+
+}
+
+.selected {
+    color: rgb(255, 6, 159);
+}
+#product_menu {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+#product_menu a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.exmple {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.manyRow, .aloneRow {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #f8adff;
+    display: inline-block;
+    border: 1px solid rgb(255, 0, 212);
+    font-size: 20px;
+}
+
+
+.manyTable, .aloneTable {
+    border-collapse: collapse;
+    background-color: rgb(173, 255, 225);
+    display: inline-block;
+    margin: 10px;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid rgb(255, 0, 179);
+    padding: 5px 10px;
+}
+
+tr {
+    border:1px solid rgb(255, 0, 179);
+}
+
+footer {
+    background-color: rgb(255, 147, 232);
+    padding: 15px;
+    font-size: 23px;
+    color: rgb(255, 6, 159);
+    text-align: center;
+    padding-left: 60px;
+}
